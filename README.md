@@ -33,6 +33,21 @@
 
   
 ## Udemy Course Track
-  |S.No|Topic|Start Date| End Date|Status|
-  |---|---|---|---|---|
-  | 1 | Introduction | - | - | - | 
+  |S.No|Topic|Start Date| End Date|Status|Comments|
+  |---|---|---|---|---|---|
+  | 1 | Introduction | 21-Sep-23 | - | In progress | This section is mainly about CKAD in general, should not take much time. |
+  | 2 | Core Concepts - K8s Architecture | - | - | To be started |  |
+  |  | Yaml Basics | - | - | To be started |  |
+  |  | Pods | -Sep-23 | - | To be started |  |
+  |  | Deployments | -Sep-23 | - | To be started |  |
+  |  | Replicasets | -Sep-23 | - | To be started |  |
+  |  | Namespaces | -Sep-23 | - | To be started |  |
+
+## Others 
+  |S.No|Topic|Start Date| End Date|Status|Comments|
+  |---|---|---|---|---|---|
+  | 1 | VIM shortcuts | - | - | To be started |  |
+  | 2 | Exploring Killer.sh environment | - | - | To be started |  |
+  | 3 | Docker| - | - | To be started |  |
+  | 4 | Docker compose | - | - | To be started |  
+  | 5 | Linux Basics | - | - | To be started |  |
