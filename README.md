@@ -38,16 +38,17 @@
   | 1 | Introduction | 21-Sep-23 | - | In progress | This section is mainly about CKAD in general, should not take much time. |
   | 2 | Core Concepts - K8s Architecture | - | - | To be started |  |
   |  | Yaml Basics | - | - | To be started |  |
-  |  | Pods | -Sep-23 | - | To be started |  |
-  |  | Deployments | -Sep-23 | - | To be started |  |
-  |  | Replicasets | -Sep-23 | - | To be started |  |
-  |  | Namespaces | -Sep-23 | - | To be started |  |
+  |  | Pods | -Sep-24 | - | To be started |  |
+  |  | Deployments | -Sep-24 | - | To be started |  |
+  |  | Replicasets | -Sep-24 | - | To be started |  |
+  |  | Namespaces | -Sep-24 | - | To be started |  |
 
 ## Others 
   |S.No|Topic|Start Date| End Date|Status|Comments|
   |---|---|---|---|---|---|
-  | 1 | VIM shortcuts | - | - | To be started |  |
-  | 2 | Exploring Killer.sh environment | - | - | To be started |  |
-  | 3 | Docker| - | - | To be started |  |
-  | 4 | Docker compose | - | - | To be started |  
-  | 5 | Linux Basics | - | - | To be started |  |
+  | 1 | VIM shortcuts | 23-Sep-23 | - | To be started | Wrap in max 1 week |
+  | 2 | Exploring Killer.sh environment | - | - | To be started | max 2 hrs |
+  | 3 | Docker| - | - | To be started | max 1 day |
+  | 4 | Docker compose | - | - | To be started | Take 2 hrs a max time + 1 hr for exercise, there were detailed questions seen earlier, bring those back | 
+  | 5 | Linux Basics | - | - | To be started | This needs to be re-planned, master the basic commands first which comes very handy, then file permissions, shell scripting advanced terms, redirection, Here the problem is after understanding I forget this, so need to master the usage  |
+  | 6| Docker and Shell hands on| -| - |-|Create Docker file with multistage builds, making containers non admin accessible, in one case also add a  virtual env , mount the volume, create a network and use it ; IN shell case, find some complicated use cases to include the actual learning|
