@@ -1,5 +1,6 @@
 ## K8s Architecture
 ### Nodes (Minions)
+ - Is the basic unit in Kubernetes, represents a set of containers that share common resources such as an IP address and persistent storage volume.
  - Is a machine _(physical or virtual)_ on which K8s is installed.
  - Nodes are mainly worker machines where conainers will be running.
  - Master node is the one which manages other nodes and **responsible for actual orchestration** of containers in worker nodes.
@@ -49,6 +50,13 @@
 Tool required to deploy and manage applications on K8s cluster.
  - `kubeclt cluster-info`
  - `kubectl run <image-name>`
+ - `source <(kubectl completion bash)` : Enable shell autocompletion for kubectl command in a bash shell.
+ - `kubectl config view` : View different parts of the current configuration, including current context and namespace.
+ - `kubectl config set-context --current --namespace=my-namespace` : Set the current namespace
+   <br>
+ - Kubectl uses curl under the hood to send API requests to K8s API server.
+ - Context that kubectl uses is stored at ~/.kube/config (Context implies which cluster to connect with)
+ - 
 
 ## Ingress
  - Ingress is part of Kubernetes networking and can be understood in two parts - 1) Ingress Controller 2) Ingress rules
