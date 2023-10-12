@@ -1,3 +1,20 @@
+## YAML
+ - Human Readable data serialization language
+ - Typical convention is to use small case
+ - Spacing is important
+ - Keys needs to be unique. Two keys cannot exist at the same level
+ - Comments are done using # in yaml
+ - Dictionaries/maps , objects, collections/list/arrays (use -) - **CHECK THE USAGE OF EACH DATA TYPE**
+ - Yaml Multiline can be used using **pipe (|)**: This maintains spacing order or carriage returns & **greaterthan (>)** : This does not considers carriage line feed (\n)
+   ```yaml
+   Example1: |
+        This is an example to show
+        the usage of pipe in yaml
+   Example2: >
+     This is an example to show
+     the usage of pipe in yaml
+```
+
 ## K8s Architecture
 ### Nodes (Minions)
  - Is the basic unit in Kubernetes, represents a set of containers that share common resources such as an IP address and persistent storage volume.
